@@ -1,0 +1,11 @@
+wp-config.php
+wp-config-sample.php
+.DS_Store
+wp-content/themes/twentyeleven
+wp-content/themes/twentytwelve
+.sass-cache
+readme.html
+Thumbs.db
+wp-content/plugins/hello.php
+wp-content/plugins/akismet
+.vagrant

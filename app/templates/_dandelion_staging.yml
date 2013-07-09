@@ -1,0 +1,25 @@
+# Required
+# --------
+
+scheme: sftp
+host: <%= stagingHost %>
+username: <%= stagingUserName %>
+password: <%= stagingPassword %>
+
+# Optional
+# --------
+
+# Remote path
+path: <%= productionRemotePath  %>
+
+# Remote file name in which the current revision is stored
+revision_file: .revision_staging
+
+# These files (from Git) will not be uploaded during a deploy
+exclude:
+    - .gitignore
+    - dandelion_staging.yml
+    - dandelion.yml
+    - puppet
+    - Vagrantfile
+    - .vagrant
