@@ -10,7 +10,9 @@ var SaidigitalwordpressGenerator = module.exports = function Saidigitalwordpress
   yeoman.generators.Base.apply(this, arguments);
 
   this.on('end', function () {
-    this.installDependencies({ skipInstall: options['skip-install'] });
+    /*
+    this.installDependencies({ skipInstall: true });
+    */
   });
 
   this.pkg = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
