@@ -1,6 +1,6 @@
 {
   "name": "generator-saidigitalwordpress",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A SAI Digital Wordpress project generator for Yeoman",
   "keywords": [
     "yeoman-generator"
